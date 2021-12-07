@@ -7,7 +7,7 @@ package composição;
 
 /**
  *
- * @author SAMSUNG
+ * @author hrprestes
  */
 public class Direção {
     String cor;

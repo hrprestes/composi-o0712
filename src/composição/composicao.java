@@ -7,23 +7,12 @@ package composição;
 
 /**
  *
- * @author SAMSUNG
+ * @author hrprestes
  */
 public class composicao {
     public static void main(String[] arg) {
-        //primeira forma
-        Automovel polo = new Automovel();
-        Automovel corsa = new Automovel(2000);
-     
-        //segunda forma
         Automovel carro = new Automovel();
-        carro.ligarPelaPrimeiraVez();
-        carro.ligarPelaPrimeiraVez(1600);
-        
-        //terceira forma
-        Automovel moto  = new Automovel();
-        Motor motor = new Motor();
-        Motor motor2 = new Motor(1600);
+        Automovel carro2 = new Automovel(1500,"verde");
         
         
         

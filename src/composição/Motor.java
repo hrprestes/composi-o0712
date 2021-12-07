@@ -7,10 +7,10 @@ package composição;
 
 /**
  *
- * @author SAMSUNG
+ * @author hrprestes
  */
-class Motor {
-    private int potencia;
+public class Motor {
+    int potencia;
     
     public Motor(){
         potencia=1000;
@@ -18,10 +18,12 @@ class Motor {
     public Motor(int potencia) {
         this.potencia=potencia;   
     }
+    
     public int getPotencia() {
        return potencia;
 }
-    public int setPotencia(String potencia) {
-        int potencia1 = this.potencia;   
- 
+    public void setPotencia(int potencia) {
+        this.potencia = potencia;   
+    }
 
+}
