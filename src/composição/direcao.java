@@ -9,7 +9,7 @@ package composição;
  *
  * @author hrprestes
  */
-public class Direção {
+public class direcao {
     String cor;
     String peso;
     String Material;

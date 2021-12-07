@@ -16,19 +16,10 @@ public class Automovel {
     int ano;
    
     
-    void imprimeDadosAutomovel() {
-       System.out.println("---------CARRO---------");
-       System.out.println("Cor da cadeira: "+ cor);
-       System.out.println("peso da cadeira: "+ peso);
-       System.out.println("Material usado na cadeira: "+ marca);
-       System.out.println("Quantidade de cadeiras: "+ ano);
-       }
-    
     private Motor motor;
-    private Direção direcao;  
+    private direcao direcao;  
 
     Automovel(int i, String verde) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     public void ligarPelaPrimeiraVez(int potencia, String cor){
@@ -45,4 +36,10 @@ public class Automovel {
     void ligarPelaPrimeiraVez(int i) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+   void imprimeDadosAutomovel() {
+       System.out.println("Insira a potencia: " + motor.getPotencia());
+       System.out.println("Cor da direção: "+ direcao.getCor());
+       } 
+    
 }
